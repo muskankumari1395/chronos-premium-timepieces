@@ -63,7 +63,7 @@ const FeaturedCollection = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="flex gap-2">
-                      <Button size="sm" className="btn-hero text-xs px-4 py-2">
+                      <Button size="sm" variant="hero" className="text-xs px-4 py-2">
                         <Eye className="w-4 h-4 mr-2" />
                         Quick View
                       </Button>
@@ -123,7 +123,7 @@ const FeaturedCollection = () => {
 
         {/* View All Button */}
         <div className="text-center">
-          <Button className="btn-luxury">
+          <Button variant="luxury">
             View Complete Collection
           </Button>
         </div>

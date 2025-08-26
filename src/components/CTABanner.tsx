@@ -25,10 +25,10 @@ const CTABanner = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
-          <Button className="btn-gold text-lg px-10 py-4">
+          <Button variant="gold" className="text-lg px-10 py-4">
             Book Private Viewing
           </Button>
-          <Button className="btn-hero text-lg px-10 py-4">
+          <Button variant="hero" className="text-lg px-10 py-4">
             Explore Limited Editions
           </Button>
         </div>

@@ -62,7 +62,7 @@ const Footer = () => {
                 placeholder="Enter your email" 
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
               />
-              <Button className="btn-gold shrink-0">
+              <Button variant="gold" className="shrink-0">
                 Subscribe
               </Button>
             </div>

@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Luxury variants
+        hero: "bg-transparent border-2 border-white text-white px-8 py-4 font-medium tracking-wide uppercase hover:bg-white hover:text-black transition-all duration-500",
+        gold: "bg-gradient-to-r from-gold-light to-gold-dark text-black px-8 py-4 font-medium tracking-wide uppercase hover:shadow-gold transition-all duration-300",
+        luxury: "bg-surface-deep text-text-light border-2 border-surface-deep px-8 py-4 font-medium tracking-wide uppercase hover:bg-transparent hover:text-surface-deep transition-all duration-500",
       },
       size: {
         default: "h-10 px-4 py-2",

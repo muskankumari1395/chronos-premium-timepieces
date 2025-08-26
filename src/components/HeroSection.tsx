@@ -25,10 +25,10 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center fade-in-delay">
-          <Button className="btn-hero">
+          <Button variant="hero">
             Explore Collection
           </Button>
-          <Button className="btn-gold">
+          <Button variant="gold">
             Book an Appointment
           </Button>
         </div>

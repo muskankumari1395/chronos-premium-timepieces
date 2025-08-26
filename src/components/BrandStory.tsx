@@ -66,7 +66,7 @@ const BrandStory = () => {
             </div>
 
             <div className="mt-10">
-              <Button className="btn-luxury">
+              <Button variant="luxury">
                 Discover Our Heritage
               </Button>
             </div>

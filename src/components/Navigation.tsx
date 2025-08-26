@@ -37,7 +37,7 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="btn-luxury">
+            <Button variant="luxury">
               Book Appointment
             </Button>
           </div>
@@ -69,7 +69,7 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button className="btn-luxury w-full">
+                <Button variant="luxury" className="w-full">
                   Book Appointment
                 </Button>
               </div>
