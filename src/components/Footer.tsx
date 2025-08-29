@@ -87,7 +87,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm mb-4 md:mb-0">
-            © 2024 CHRONOS. All rights reserved.
+            © 2025 CHRONOS. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-white/60 hover:text-gold transition-colors">Privacy Policy</a>
