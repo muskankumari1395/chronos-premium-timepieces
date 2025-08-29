@@ -36,8 +36,8 @@ export default function ContactSection() {
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
-            <h3 className="text-2xl font-bold text-white mb-6">Send us a message</h3>
+          <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10 group hover:bg-white/10 transition-all duration-700 hover:shadow-2xl hover:shadow-gold/20 hover:border-gold/30">
+            <h3 className="text-2xl font-bold text-white mb-6 group-hover:text-gold transition-colors duration-500">Send us a message</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
@@ -51,7 +51,7 @@ export default function ContactSection() {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent hover:bg-white/15 hover:border-gold/50 transition-all duration-300"
                     placeholder="Your name"
                     required
                   />
@@ -67,7 +67,7 @@ export default function ContactSection() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent hover:bg-white/15 hover:border-gold/50 transition-all duration-300"
                     placeholder="your@email.com"
                     required
                   />
@@ -84,7 +84,7 @@ export default function ContactSection() {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                  className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent hover:bg-white/15 hover:border-gold/50 transition-all duration-300"
                   placeholder="How can we help you?"
                   required
                 />
@@ -100,7 +100,7 @@ export default function ContactSection() {
                   value={formData.message}
                   onChange={handleChange}
                   rows={5}
-                  className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent resize-none"
+                  className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent resize-none hover:bg-white/15 hover:border-gold/50 transition-all duration-300"
                   placeholder="Tell us more about your inquiry..."
                   required
                 />
@@ -108,10 +108,10 @@ export default function ContactSection() {
               
               <button
                 type="submit"
-                className="w-full bg-gold hover:bg-gold/90 text-black font-semibold py-3 px-6 rounded-lg transition-colors duration-300 flex items-center justify-center gap-2"
+                className="w-full bg-gold hover:bg-gold/90 text-black font-semibold py-3 px-6 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 hover:shadow-lg hover:shadow-gold/50 hover:scale-105 transform"
               >
                 Send Message
-                <Send className="h-4 w-4" />
+                <Send className="h-4 w-4 group-hover:rotate-45 transition-transform duration-300" />
               </button>
             </form>
           </div>
