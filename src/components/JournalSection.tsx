@@ -1,5 +1,11 @@
 import React from 'react';
 import { Calendar, Clock, ArrowRight, User } from 'lucide-react';
+import heroWatch from "@/assets/hero-watch.jpg";
+import watchDetail1 from "@/assets/watch-detail-1.jpg";
+import watchDetail2 from "@/assets/watch-detail-2.jpg";
+import watchDetail3 from "@/assets/watch-detail-3.jpg";
+import watchCollection from "@/assets/watch-collection.jpg";
+import craftsmanship from "@/assets/craftsmanship.jpg";
 
 const JournalSection = () => {
   const articles = [
@@ -11,7 +17,7 @@ const JournalSection = () => {
       author: "Master Horologist",
       date: "December 15, 2024",
       readTime: "8 min read",
-      image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=600&h=400&fit=crop",
+      image: heroWatch,
       featured: true
     },
     {
@@ -22,7 +28,7 @@ const JournalSection = () => {
       author: "Technical Expert",
       date: "December 10, 2024",
       readTime: "6 min read",
-      image: "https://images.unsplash.com/photo-1611599537845-2f0a29dfca98?w=600&h=400&fit=crop"
+      image: watchDetail1
     },
     {
       id: 3,
@@ -32,7 +38,7 @@ const JournalSection = () => {
       author: "Service Master",
       date: "December 5, 2024",
       readTime: "5 min read",
-      image: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=600&h=400&fit=crop"
+      image: watchDetail2
     },
     {
       id: 4,
@@ -42,7 +48,7 @@ const JournalSection = () => {
       author: "Watch Historian",
       date: "November 28, 2024",
       readTime: "7 min read",
-      image: "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=600&h=400&fit=crop"
+      image: watchDetail3
     },
     {
       id: 5,
@@ -52,7 +58,7 @@ const JournalSection = () => {
       author: "Market Analyst",
       date: "November 20, 2024",
       readTime: "9 min read",
-      image: "https://images.unsplash.com/photo-1523170335258-f5c51c2f2dce?w=600&h=400&fit=crop"
+      image: watchCollection
     },
     {
       id: 6,
@@ -62,7 +68,7 @@ const JournalSection = () => {
       author: "Atelier Master",
       date: "November 15, 2024",
       readTime: "10 min read",
-      image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&h=400&fit=crop"
+      image: craftsmanship
     }
   ];
 
