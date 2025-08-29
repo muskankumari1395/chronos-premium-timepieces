@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import AnimatedWatch from "@/components/AnimatedWatch";
 import heroWatch from "@/assets/hero-watch.jpg";
 
 const HeroSection = () => {
@@ -10,6 +11,8 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${heroWatch})` }}
       >
         <div className="absolute inset-0 bg-gradient-hero"></div>
+        {/* Animated Watch Overlay */}
+        <AnimatedWatch />
       </div>
 
       {/* Content */}
