@@ -162,4 +162,32 @@
     transform: translateZ(0);
     will-change: transform;
   }
+  
+  /* Custom Scrollbar */
+  .custom-scroll::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-track {
+    background: hsl(var(--surface-secondary));
+    border-radius: 4px;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, hsl(var(--gold-light)), hsl(var(--gold-dark)));
+    border-radius: 4px;
+    transition: var(--transition-smooth);
+  }
+  
+  .custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, hsl(var(--gold-dark)), hsl(var(--gold)));
+    box-shadow: var(--shadow-gold);
+  }
+  
+  /* Firefox scrollbar */
+  .custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--gold)) hsl(var(--surface-secondary));
+  }
 }
